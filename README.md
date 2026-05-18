@@ -1,5 +1,3 @@
-# orski-hryc.github.io
-
 ## Short About
 
 I'm a biologist and bioinformatician based in Poznań, Poland. Currently finishing a Master's thesis in structural bioinformatics of ABCG transporter conformation specific residue contacts.
