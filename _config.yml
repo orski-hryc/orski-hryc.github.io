@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "pl" #"en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "M. Orski-Hryc"
 title_separator          : "-"
 name                     : &name "Maciej Orski-Hryc"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Orski-Hryc academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://orski-hryc.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Computational Biologist"
   location         : "Poznań"
-  employer         : "Institute of Plant Genetics, PAS"
+  employer         : "Institute of Plant Genetics"
   uri              : # URL
   email            : "mhry@igr.poznan.pl" 
 
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
