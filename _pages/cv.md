@@ -28,3 +28,6 @@ Skills
   * Statistics (R)
   * ML and data science (Python)
   * HPC
+* Bioinformatics
+  * Genomics
+  * Structural Bioinformatics
