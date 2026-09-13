@@ -1,3 +1,6 @@
+# ignore old
+old/
+
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
