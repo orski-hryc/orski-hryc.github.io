@@ -24,3 +24,6 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+uam/genomika_medyczna/zajecia
+uam/analiza_obrazow_mikroskopowych
+uam/biologia_strukturalna/tex_struct.zip

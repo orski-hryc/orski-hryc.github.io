@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css">
-
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     
     <title>About</title>
 </head>
@@ -18,9 +18,75 @@
 
     <article>
         <p>
-        I'm a 
+        I'm a bioinformatician with 2 years of experience
         </p>
     </article>
-    
+
+    <!-- 
+  Academic affiliations logo banner
+  - Drop this section anywhere in your page (e.g. under your bio/header)
+  - Replace src/alt/href for each logo with your own
+  - Logos display grayscale by default, full color on hover
+  - Adjust --logo-height to make logos bigger/smaller
+-->
+
+<style>
+  .affiliations {
+    --logo-height: 100px;
+    --gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: var(--gap);
+    padding: 24px 16px;
+    margin: 32px 0;
+  }
+
+  .affiliations img {
+    height: var(--logo-height);
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.65);
+    transition: filter 0.2s ease;
+  }
+
+  .affiliations a:hover img,
+  .affiliations a:focus img {
+    filter: grayscale(0%) opacity(1);
+  }
+
+  /* Optional: smaller logos on narrow screens */
+  @media (max-width: 600px) {
+    .affiliations {
+      --logo-height: 30px;
+      --gap: 28px;
+    }
+  }
+</style>
+
+<hr>
+<h1>Past or current affiliations</h1>
+
+<div class="affiliations">
+  <a href="https://biologia.amu.edu.pl/" target="_blank" rel="noopener">
+    <img src="logos/Logo_UAM_kolor_CMYK.jpg" alt="UAM">
+  </a>
+  <a href="https://ibmib.web.amu.edu.pl/" target="_blank" rel="noopener">
+    <img src="logos/ibmib_logo.png" alt="IBMIB">
+  </a>
+  <a href="https://portal.ichb.pl/" target="_blank" rel="noopener">
+    <img src="logos/ichb_logo.jpg" alt="ICHB PAN">
+  </a>
+  <a href="https://www.igr.poznan.pl/" target="_blank" rel="noopener">
+    <img src="logos/igr_logo.jpg" alt="IGR PAN">
+  </a>
+  <!-- <a href="https://www.example-company.com" target="_blank" rel="noopener">
+    <img src="logos/iimcb_logo_full.png" alt="IIMCB">
+  </a> -->
+</div>
+<hr>
+
 </body>
 </html>
